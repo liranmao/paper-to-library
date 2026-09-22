@@ -1,0 +1,8 @@
+Save item 1, please.
+
+On [date], Daily Spatial Omics & Digital Pathology Briefing wrote:
+> 1. Example spatial atlas study
+> [quoted briefing content]
+
+Only the first line is a selection. This fixture contains no real email headers;
+it cannot establish sender identity or a valid reply chain by itself.

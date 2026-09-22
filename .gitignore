@@ -1,0 +1,19 @@
+# Personal configuration and runtime data
+library.local.json
+*.local.json
+.local/
+.env
+.env.*
+!.env.example
+*credentials*
+*token.json
+briefing-replies-state.json
+backups/
+literature/
+*.pdf
+*.sqlite*
+*.db
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/

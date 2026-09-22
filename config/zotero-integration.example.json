@@ -1,0 +1,20 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "literature",
+  "pdfExportImageDPI": 150,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "citeSuggestTemplate": "{% set journalPrefixes = {\"Nature Methods\": \"NM\", \"Nature Communications\": \"NC\", \"Cell\": \"Cell\", \"Nature\": \"Nature\", \"Nature Medicine\": \"Nat Med\"} %}{% set prefix = journalPrefixes[publicationTitle] or publicationTitle or \"Unknown journal\" %}[[literature/{{prefix | replace(r/[\\\\/:*?\"<>|#\\[\\]\\r\\n]/g, \"-\") | trim}}：{{title | replace(r/[\\\\/:*?\"<>|#\\[\\]\\r\\n]/g, \"-\") | trim}}|{{prefix}}：{{title}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "exportFormats": [
+    {
+      "name": "Import concise literature note",
+      "outputPathTemplate": "{% set journalPrefixes = {\"Nature Methods\": \"NM\", \"Nature Communications\": \"NC\", \"Cell\": \"Cell\", \"Nature\": \"Nature\", \"Nature Medicine\": \"Nat Med\"} %}{% set prefix = journalPrefixes[publicationTitle] or publicationTitle or \"Unknown journal\" %}literature/{{prefix | replace(r/[\\\\/:*?\"<>|#\\[\\]\\r\\n]/g, \"-\") | trim}}：{{title | replace(r/[\\\\/:*?\"<>|#\\[\\]\\r\\n]/g, \"-\") | trim}}.md",
+      "imageOutputPathTemplate": "literature/_images/{{citekey}}/",
+      "imageBaseNameTemplate": "figure",
+      "templatePath": "literature/_templates/concise-literature.md"
+    }
+  ]
+}

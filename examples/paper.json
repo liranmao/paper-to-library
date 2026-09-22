@@ -1,0 +1,19 @@
+{
+  "title": "Example spatial atlas study",
+  "journal": "Nature Methods",
+  "published": "1 January 2026 (synthetic example)",
+  "authors": [
+    "Example Researcher",
+    "Another Researcher"
+  ],
+  "takeaway": "Based on the abstract, this fictional paper illustrates how a short, evidence-scoped takeaway appears in a literature note.",
+  "importance": "A concise reading queue connected to source records",
+  "zotero_uri": "zotero://select/library/items/EXAMPLE1",
+  "citekey": "exampleSpatialAtlas2026",
+  "sources": [
+    "https://example.org/papers/spatial-atlas"
+  ],
+  "evidence": "abstract",
+  "doi": "10.0000/example-only",
+  "verified_at": "Synthetic fixture; not a real paper"
+}

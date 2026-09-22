@@ -1,0 +1,23 @@
+{
+  "vault_path": "/absolute/path/to/your/Obsidian Vault",
+  "literature_folder": "literature",
+  "zotero_collection": "papers",
+  "owner_email": "you@example.com",
+  "briefing_recipient": "you@example.com",
+  "briefing_sender": "you@example.com",
+  "briefing_subject": "Daily Spatial Omics & Digital Pathology Briefing",
+  "topics": [
+    "spatial transcriptomics",
+    "spatial proteomics",
+    "digital pathology",
+    "multimodal foundation models"
+  ],
+  "timezone": "America/New_York",
+  "briefing_time": "08:00",
+  "reply_check_time": "20:00",
+  "max_papers": 5,
+  "first_scan_days": 30,
+  "scan_overlap_days": 2,
+  "state_path": ".local/briefing-replies-state.json",
+  "briefing_archive": ".local/briefings"
+}
